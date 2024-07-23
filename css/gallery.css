@@ -1,0 +1,44 @@
+    #photogallery {
+        text-align: center;
+        margin: auto;
+    }
+    .text_gal h2 {
+        text-align: center;
+        cursor: pointer;
+        opacity: 0.5;
+        transition: 0.5s;
+    }
+    .text_gal h2:hover {
+        opacity: 1;
+    }
+    .text_gal p,
+    .p {
+        font-size: 18px;
+    }
+    .text_gal .fa {
+        margin-right: 7px;
+    }
+    iframe {
+        margin-left: 85px;
+    }
+    .text_gal ul {
+        margin-left: 15px;
+        font-size: 18px;
+        padding-left: 25px;
+        list-style-image: url(../img/ok.gif);
+    }
+    .text_gal ul a {
+        text-decoration: none;
+        color: #000;
+        border-bottom: 6px solid #000;
+        height: 40px;
+        width: 400px;
+        line-height: 40px;
+        display: block;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+    }
+    .text_gal ul a:hover {
+        border-bottom: 3px solid rgb(126, 126, 126);
+        padding-left: 10px;
+    }

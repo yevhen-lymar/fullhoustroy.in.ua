@@ -1,0 +1,45 @@
+article {
+    font-size: 18px;
+}
+article h2 {
+    text-align: center;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+article h2:hover {
+    opacity: 1;
+}
+#right-sidebar .yellow-black {
+    display: none;
+}
+.block {
+    padding: 30px;
+    text-align: justify;
+    overflow: hidden;
+}
+.alignleft {
+    float: left;
+    margin-right: 16px;
+    border-radius: 50% 50% 50% 0;
+}
+.alignright {
+    float: right;
+    margin-left: 16px;
+    border-radius: 50% 50% 0;
+}
+.middle {
+    margin: 25% 0 25% 0;
+}
+.list ul {
+    padding-left: 25px;
+    list-style-image: url(../img/arrow.gif)
+}
+p {
+    /*    margin-left: 16px;*/
+}
+/*
+h3 {
+    text-align: center;
+    vertical-align: middle;
+}*/

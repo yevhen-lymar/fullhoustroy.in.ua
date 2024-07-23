@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ФуллХАУСтрой | Контакты | Строительство и ремонт в городе Харьков</title>
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/normalize-3.0.2.css">
+    <link rel="stylesheet" href="../css/global_style.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/contacts.css">
+    <link rel="stylesheet" href="../css/media-queries.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Didact+Gothic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Jura&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="../js/slider.js"></script>
+    <script>
+        $(document).ready(function() {
+            var touch = $("#touch-menu");
+            var menu = $("#menu");
+            var touch1 = $(".menu_one");
+            var menu1 = $(".menu_one:first-child");
+            $(touch).on("click", function(e) {
+                e.preventDefault();
+                menu.slideToggle();
+            });
+            $(touch1).on("click", function(e) {
+                e.preventDefault();
+                menu1.slideDown();
+            });
+            $(window).resize(function() {
+                var wid = $(window).width();
+                if (wid > 760 && menu.is(":hidden")) {
+                    menu.removeAttr("style");
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="container clearfix">
+        <header class="clearfix">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../images/logo_fhs.png" alt="" title="На главную">
+                </a>
+            </div>
+            <div class="slogan">
+                <h1>Строительство и ремонт в городе Харьков</h1>
+                <hr>
+                <div class="b_ico">
+                    <img src="../images/building_ico/1.png" alt="">
+                    <img src="../images/building_ico/2.png" alt="">
+                    <img src="../images/building_ico/3.png" alt="">
+                    <img src="../images/building_ico/4.png" alt="">
+                    <img src="../images/building_ico/5.png" alt="">
+                    <img src="../images/building_ico/6.png" alt="">
+                    <img src="../images/building_ico/7.png" alt="">
+                    <img src="../images/building_ico/8.png" alt="">
+                    <img src="../images/building_ico/9.png" alt="">
+                    <img src="../images/building_ico/10.png" alt="">
+                </div>
+            </div>
+            <div class="contact">
+                <div class="social">
+                    <a href="https://www.facebook.com/groups/219757211926091/"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
+                    <a href="https://vk.com/fullhoustroy"><i class="fa fa-vk fa-lg" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/fullhoustroy_kharkov/"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
+                    <a href="https://vk.com/lymardesign" target="_blank">LD</a>
+                </div>
+                <div class="phone"><i class="fa fa-phone-square" aria-hidden="true"></i><em>0(97) 452 39 19</em>
+                    <br><i class="fa fa-phone-square" aria-hidden="true"></i><em>0(95) 875 68 45</em>
+                </div>
+            </div>
+            <div id="slider">
+                <ul class="slidewrap" data-current="0">
+                    <li>
+                        <a href="../pages/perechen_uslug/mashinaya_shtukaturka.html#mash" class="more">Подробнее</a>
+                        <img src="../images/slider/slider1.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="../images/slider/slid2.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="../images/slider/slider3.jpg" alt="">
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <main class="clearfix">
+            <aside id="left-sidebar">
+                <a href="#" id="touch-menu"><i class="fa fa-bars" aria-hidden="true"></i><span>М е н ю</span></a>
+                <nav>
+                    <ul id="menu">
+                        <li><a href="../index.html"><i class="fa fa-home fa-lg" aria-hidden="true"></i>Главная</a>
+                        </li>
+                        <li><a class="menu_one"><i class="fa fa-wrench fa-lg" aria-hidden="true"></i>Перечень работ</a>
+                            <ul>
+                                <li><a href="../pages/perechen_uslug/mashinaya_shtukaturka.html"><i class="fa fa-hand-o-right" aria-hidden="true"></i>Машинная штукатурка</a>
+                                </li>
+                                <li><a href="../pages/perechen_uslug/styazhka_pola.html"><i class="fa fa-hand-o-right" aria-hidden="true"></i>Стяжка пола</a>
+                                </li>
+                                <li><a href="../pages/perechen_uslug/elektrika.html"><i class="fa fa-hand-o-right" aria-hidden="true"></i>Электромонтажные работы</a>
+                                </li>
+                                <li><a href="../pages/perechen_uslug/santekhnika.html"><i class="fa fa-hand-o-right" aria-hidden="true"></i>Сантехнические работы</a>
+                                </li>
+                                <li><a href="../pages/perechen_uslug/otdelochnyye_raboty.html"><i class="fa fa-hand-o-right" aria-hidden="true"></i>Отделочные работы</a>
+                                </li>
+                                <!--
+                                <li><a href="#"><i class="fa fa-hand-o-right" aria-hidden="true"></i>Гипсокартонные конструкции</a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-hand-o-right" aria-hidden="true"></i>Фасадные работы</a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-hand-o-right" aria-hidden="true"></i>Кровельные работы</a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-hand-o-right" aria-hidden="true"></i>Металоконструкции</a>
+                                </li>
+-->
+                            </ul>
+                        </li>
+                        <li><a class="menu_one"><i class="fa fa-university" aria-hidden="true"></i>Наши проекты</a>
+                            <ul>
+                                <li><a href="../pages/proekti/malogabaritka_13_kv_m.html"><i class="fa fa-check" aria-hidden="true"></i>Малогабаритка 13м.кв.</a>
+                                </li>
+                                <li><a href="../pages/proekti/malogabaritka_16_kv_m.html"><i class="fa fa-check" aria-hidden="true"></i>Малогабаритка 16м.кв.</a>
+                                </li>
+                                <li><a href="../pages/proekti/odnokomnatnaya_kvartira.html"><i class="fa fa-check" aria-hidden="true"></i>Однокомнатня квартира "Чешка"</a>
+                                </li>
+                                <!--
+                                <li><a href="#"><i class="fa fa-check" aria-hidden="true"></i>4</a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-check" aria-hidden="true"></i>5</a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-check" aria-hidden="true"></i>6</a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-check" aria-hidden="true"></i>7</a>
+                                </li>
+-->
+                            </ul>
+                        </li>
+                        <li><a href="./gallery.html"><i class="fa fa-picture-o fa-lg" aria-hidden="true"></i>Галерея</a>
+                        </li>
+                        <li><a href="./prices.html"><i class="fa fa-usd fa-lg" aria-hidden="true"></i>Цены</a>
+                        </li>
+                        <li><a href="#" class="active"><i class="fa fa-phone fa-lg" aria-hidden="true"></i>Контакты</a>
+                        </li>
+                        <li><a href="../testimonials/index.php"><i class="fa fa-comment fa-lg" aria-hidden="true"></i>Отзывы</a>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+            <section>
+                <div class="h1">
+                    <img src="../img/cub.png" alt="">
+                    <h1>Контакты</h1>
+                </div>
+                <hr>
+                <div class="text_cont">
+                    <h2>Строительство и ремонт в городе Харьков</h2>
+                    <hr>
+                    <p>Для связи с нами звоните по нашим номерам телефонов или пишите нам на почту.
+                        <br>Мы с радостью ответим на все Ваши вопросы.</p>
+                    <p>Спасибо, что выбрали нас!</p>
+                    <fieldset>
+                        <legend>
+                            <h3>Наши телефоны</h3>
+                        </legend>
+                        <p class="phones">
+                            <i class="fa fa-phone-square" aria-hidden="true"></i><em>0(97) 452 39 19</em> (Киевстар)
+                            <br><i class="fa fa-phone-square" aria-hidden="true"></i><em>0(95) 875 68 45</em> (Vodafon)
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>
+                            <h3>Так же мы в социальных сетях</h3>
+                        </legend>
+                        <p>
+                            <i class="fa fa-facebook-official fa-lg" aria-hidden="true"></i><a href="https://www.facebook.com/groups/219757211926091/"><em>facebook</em></a>
+                            <br><i class="fa fa-instagram fa-lg" aria-hidden="true"></i><a href="https://www.instagram.com/fullhoustroy_kharkov/"><em>instagram</em></a>
+                            <br><i class="fa fa-youtube-play fa-lg" aria-hidden="true"></i><a href="https://www.youtube.com/playlist?list=PLqbefUNCrbHQeFUaWFfAZP3FyK4Oznn6i"><em>youtube</em></a>
+                            <br><i class="fa fa-vk fa-lg" aria-hidden="true"></i><a href="https://vk.com/fullhoustroy"><em>в контакте</em></a>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>
+                            <h3>Напишите нам письмо</h3>
+                        </legend>
+                        <p>
+                            Если у Вас нет возможности позвонить, тогда напишите Нам письмо и Мы в кратчайшие сроки ответим Вам и с радостью поможем Вам с Вашими вопросами.
+                        </p>
+                        <form method="POST" id="feedback-form">
+                            Как к Вам обращаться:
+                            <input type="text" name="nameFF" required placeholder="фамилия имя отчество" x-autocompletetype="name">Email для связи:
+                            <input type="email" name="contactFF" required placeholder="адрес электронной почты" x-autocompletetype="email">Ваше сообщение:
+                            <textarea name="messageFF" required rows="5"></textarea>
+                            <input type="submit" value="Отправить">
+                        </form>
+                    </fieldset>
+                </div>
+                <div class="win"><em>&laquo;С нами вы <strong>выиграете</strong>!&raquo;</em>
+                </div>
+                <footer class="clearfix">
+                    <div class="cop">
+                        &copy; 2018
+                        <a href="https://new.vk.com/evgeniy_lymar">
+                            <img src="../images/logo_LymarDesign_black_h50px.png" alt="">
+                        </a>
+                    </div>
+                </footer>
+            </section>
+            <aside id="right-sidebar">
+                <div class="news">
+                    <h3>Почитать</h3>
+                    <ul>
+                        <li><i class="fa fa-align-justify" aria-hidden="true"></i><a href="../pages/is_read/gipsokarton_info.html">Гипсокартон. История</a>
+                        </li>
+                        <li><i class="fa fa-align-justify" aria-hidden="true"></i><a href="#">Шпаклевка стен</a>
+                        </li>
+                        <li><i class="fa fa-align-justify" aria-hidden="true"></i><a href="#">Новые технологии</a>
+                        </li>
+                        <li><i class="fa fa-align-justify" aria-hidden="true"></i><a href="#">Первые инстурменты</a>
+                        </li>
+                        <li><i class="fa fa-align-justify" aria-hidden="true"></i><a href="#">Инструмент будущего</a>
+                        </li>
+                    </ul>
+                </div>
+                <hr>
+                <h3>Реклама</h3>
+                <div class="help">
+                    <img src="../images/help/help.gif" alt="">
+                </div>
+            </aside>
+        </main>
+        <a href="#" id="go_top">
+            <img alt="up" src="../img/up.png">
+        </a>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="../js/scrollup.js"></script>
+    <script src="../js/image_change.js"></script>
+    <script>
+        document.getElementById('feedback-form').addEventListener('submit', function(evt) {
+            var http = new XMLHttpRequest(),
+                f = this;
+            evt.preventDefault();
+            http.open("POST", "http://fullhoustroy.in.ua/pages/contacts.php", true);
+            http.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+            http.send("nameFF=" + f.nameFF.value + "&contactFF=" + f.contactFF.value + "&messageFF=" + f.messageFF.value);
+            http.onreadystatechange = function() {
+                if (http.readyState == 4 && http.status == 200) {
+                    alert(http.responseText + ', Ваше сообщение получено.\nНаши специалисты ответят Вам в течении 2-х дней.\nБлагодарим за интерес к нашей фирме!');
+                    f.messageFF.removeAttribute('value'); // очистить поле сообщения (две строки)
+                    f.messageFF.value = '';
+                }
+            }
+            http.onerror = function() {
+                alert('Извините, данные не были переданы');
+            }
+        }, false);
+    </script>
+
+</body>
+
+</html>

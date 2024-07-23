@@ -1,0 +1,7 @@
+
+User-agent: *
+Disallow: 
+Sitemap: http://fullhoustroy.in.ua/sitemap.xml
+
+User-agent: Yandex
+Disallow: /

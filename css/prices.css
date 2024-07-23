@@ -1,0 +1,77 @@
+table {
+    width: 720px;
+    border-collapse: collapse;
+    margin: auto;
+}
+td {
+    padding: 7px;
+    border-bottom: 1px solid #989898;
+    text-align: center;
+}
+td:nth-child(2) {
+    text-align: left;
+}
+th {
+    background-color: #999;
+    padding: 7px;
+}
+.row {
+    border-top: 1px solid #000;
+    background-color: #cccccc;
+    font-style: italic;
+    cursor: pointer;
+}
+.row:hover {
+    background-color: #e2e2e2;
+}
+.row:active {
+    background-color: #b5b5b5;
+}
+table input[type="text"],
+[type=number] {
+    width: 50px;
+    text-align: center;
+}
+.text_pric {
+    font-size: 18px;
+}
+.text_pric h2 {
+    text-align: center;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.text_pric h2:hover {
+    opacity: 1;
+}
+.down {
+    background: url(../img/dow.png) no-repeat;
+    background-size: contain;
+    width: 15px;
+    padding: 2%;
+}
+.up {
+    background: url(../img/up.png) no-repeat;
+}
+fieldset {
+    position: relative;
+}
+fieldset p {
+    font-size: 18px;
+}
+fieldset .star {
+    color: red;
+    font-size: 28px;
+    font-weight: bold;
+}
+fieldset .htext {
+    text-transform: uppercase;
+    color: red;
+    text-decoration: underline;
+    font-weight: 700;
+}
+fieldset .skidka {
+    width: 100px;
+    position: absolute;
+    bottom: 5px;
+}

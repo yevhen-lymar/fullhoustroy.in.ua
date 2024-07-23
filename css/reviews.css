@@ -1,0 +1,62 @@
+fieldset {
+    margin: 10px;
+}
+fieldset h2 {
+    font-weight: bold;
+}
+#add-testimonial {
+    max-width: 400px;
+    padding: 2%;
+}
+#add-testimonial input[type="text"],
+#add-testimonial textarea {
+    width: 100%;
+    margin: 2px 0 2% 0;
+    padding: 2%;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 3px;
+    box-shadow: 0 1px 2px -1px rgba(0, 0, 0, .2) inset, 0 0 transparent;
+}
+#add-testimonial input[type="text"]:hover,
+#add-testimonial textarea:hover {
+    border-color: #7eb4ea;
+    box-shadow: 0 1px 2px -1px rgba(0, 0, 0, .2) inset, 0 0 transparent;
+}
+#add-testimonial input[type="text"]:focus,
+#add-testimonial textarea:focus {
+    outline: none;
+    border-color: #7eb4ea;
+    box-shadow: 0 1px 2px -1px rgba(0, 0, 0, .2) inset, 0 0 4px rgba(35, 146, 243, .5);
+    transition: .2s linear;
+}
+input[type="submit"] {
+    margin-top: 16px;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+}
+input[type="submit"]:hover {
+    opacity: 0.7;
+}
+input[type="submit"]:active {
+    background-color: #bfbfbf;
+    color: #000;
+}
+input[type="submit"]:focus {
+    box-shadow: 0 1px 1px #fff, inset 0 1px 2px rgba(0, 0, 0, .8), inset 0 -1px 0 rgba(0, 0, 0, .05);
+}
+#send-testimonial[disabled] {
+    background-color: #c7c7c7;
+}
+.text_rev h2 {
+    text-align: center;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.text_rev h2:hover {
+    opacity: 1;
+}

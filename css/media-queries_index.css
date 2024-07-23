@@ -1,0 +1,303 @@
+/*Desktop - Мониторы */
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+    /*    ОСНОВНЫЕ ПРАВИЛА */
+    .container #go_top {
+        position: fixed;
+        bottom: 5px;
+        right: 15px;
+    }
+    /*    ГЛАВНЫЙ */
+    #right-sidebar {
+        float: left;
+        width: 100%;
+        height: 100%;
+        padding-bottom: 75px;
+        padding-left: 0;
+    }
+    #right-sidebar hr {
+        width: inherit;
+    }
+    /*    ШАПКА */
+    header .contact img {
+        display: none;
+    }
+    header .contact {
+        width: auto;
+        height: auto;
+    }
+    header .social {
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+        z-index: 10;
+    }
+    header .contact .phone {
+        margin: 0;
+        position: absolute;
+        bottom: 10px;
+        left: 250px;
+        z-index: 10;
+    }
+    /*    ПОДВАЛ */
+    footer {
+        height: 100px;
+    }
+}
+/*Tablets - Планшеты */
+
+@media screen and (max-width: 1023px) {
+    /*    ОСНОВНЫЕ ПРАВИЛА */
+    section,
+    #left-sidebar,
+    #right-sidebar {
+        width: 100%;
+        float: none;
+        background: none;
+    }
+    .container #go_top {
+        position: fixed;
+        bottom: 5px;
+        right: 15px;
+    }
+    /*    ШАПКА */
+    header {
+        padding-top: 50px;
+        width: 100%;
+        height: 100%;
+    }
+    header .logo {
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+    header .slogan {
+        width: 100%;
+    }
+    header .slogan .win {
+        font-size: 22px;
+    }
+    header .contact img {
+        display: none;
+    }
+    header .contact {
+        width: auto;
+        height: auto;
+    }
+    header .social {
+        position: absolute;
+        bottom: 5px;
+        left: 0;
+        z-index: 10;
+    }
+    header .contact .phone {
+        margin: 0;
+        position: absolute;
+        bottom: 5px;
+        left: 250px;
+        z-index: 10;
+    }
+    header .b_ico img:last-of-type {
+        display: none;
+    }
+    header #slider {
+        display: none;
+    }
+    /*    ГЛАВНЫЙ */
+    section .h1 {
+        width: 100%;
+    }
+    section .effect {
+        width: 50%;
+        text-align: center;
+    }
+    #right-sidebar {
+        height: 100%;
+        padding-bottom: 75px;
+        padding-left: 0;
+    }
+    #right-sidebar hr {
+        width: auto;
+    }
+    /*    ПОДВАЛ */
+    footer {
+        width: 100%;
+        height: 100px;
+    }
+    /*    МЕНЮ */
+    #left-sidebar #touch-menu {
+        display: block;
+        width: 100%;
+        margin: 5px 0;
+        background: #aaa;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        box-shadow: 0 0 4px #777;
+    }
+    #left-sidebar #menu {
+        display: none;
+        width: 100%;
+        margin: 2px 0;
+        position: absolute;
+        top: 45px;
+        left: 0;
+        z-index: 10;
+        box-shadow: 0 2px 4px #777;
+    }
+    #left-sidebar #menu li {
+        width: 100%;
+        border: 0;
+    }
+    #left-sidebar #menu li .fa {
+        margin-left: 10px;
+        margin-right: 55px;
+    }
+    #left-sidebar #menu li>ul {
+        top: 45px;
+        left: 0;
+        width: 100%;
+    }
+    #left-sidebar #menu .menu_one::after {
+        border-color: #000 transparent transparent transparent;
+        top: 1em;
+        right: 10px;
+    }
+}
+/*Phone - Телефоны*/
+
+@media screen and (max-width: 480px) {
+    /*    ОСНОВНЫЕ ПРАВИЛА */
+    section,
+    #left-sidebar,
+    #right-sidebar {
+        width: 100%;
+        float: none;
+        background: none;
+    }
+    .container #go_top {
+        position: fixed;
+        bottom: 5px;
+        right: 15px;
+    }
+    /*    ШАПКА */
+    header {
+        padding-top: 50px;
+        width: 100%;
+    }
+    header .logo {
+        text-align: center;
+        width: 100%;
+        height: auto;
+        margin-bottom: 25px;
+    }
+    header .slogan {
+        width: 100%;
+        height: auto;
+    }
+    header .slogan hr {
+        display: none;
+    }
+    header .contact img {
+        display: none;
+    }
+    header .contact {
+        width: auto;
+        height: auto;
+    }
+    header .contact .phone {
+        position: absolute;
+        top: 265px;
+        left: 0;
+        z-index: 10;
+    }
+    header .social {
+        position: absolute;
+        bottom: 2px;
+        left: 0;
+        z-index: 10;
+    }
+    header .b_ico {
+        display: none;
+    }
+    header #slider {
+        display: none;
+    }
+    /*    ГЛАВНЫЙ */
+    section .h1 {
+        width: 100%;
+        line-height: normal;
+    }
+    section .effect {
+        width: 99%;
+        text-align: center;
+    }
+    section .win {
+        font-size: 22px;
+    }
+    .block {
+        text-align: inherit;
+    }
+    .alignleft,
+    .alignright {
+        float: none;
+        border-radius: 50%;
+        margin: 0 10%;
+    }
+    .middle {
+        margin: 0 10%;
+    }
+    #right-sidebar {
+        height: 100%;
+        padding-bottom: 75px;
+    }
+    #right-sidebar .help {
+        margin: 10%;
+    }
+    /*    ПОДВАЛ */
+    footer {
+        width: 100%;
+        height: 100px;
+    }
+    /*    МЕНЮ */
+    #left-sidebar #touch-menu {
+        display: block;
+        width: 100%;
+        margin: 5px 0;
+        background: #aaa;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        box-shadow: 0 0 4px #777;
+    }
+    #left-sidebar #menu {
+        display: none;
+        width: 100%;
+        margin: 2px 0;
+        position: absolute;
+        top: 45px;
+        left: 0;
+        z-index: 10;
+        box-shadow: 0 2px 4px #777;
+    }
+    #left-sidebar #menu li {
+        width: 100%;
+        border: 0;
+    }
+    #left-sidebar #menu li .fa {
+        margin-left: 10px;
+        margin-right: 55px;
+    }
+    #left-sidebar #menu li>ul {
+        top: 45px;
+        left: 0;
+        width: 100%;
+    }
+    #left-sidebar #menu .menu_one::after {
+        border-color: #000 transparent transparent transparent;
+        top: 1em;
+        right: 10px;
+    }
+}

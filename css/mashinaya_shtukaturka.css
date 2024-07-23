@@ -1,0 +1,39 @@
+    #photogallery {
+        text-align: center;
+        margin: auto;
+    }
+    .text_gal h2 {
+        text-align: center;
+        cursor: pointer;
+        opacity: 0.5;
+        transition: 0.5s;
+    }
+    .text_gal h2:hover {
+        opacity: 1;
+    }
+    .text_gal p,
+    .p {
+        font-size: 18px;
+    }
+    .text_gal .fa {
+        margin-right: 7px;
+    }
+    iframe {
+        margin-left: 85px;
+    }
+    .text_gal .text1 p {
+        background-color: #d3d3d3;
+/*        color: #fff;*/
+        border: solid 2px #000;
+        border-radius: 15px;
+        padding: 25px;
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .text_gal ul {
+        margin-left: 15px;
+        font-size: 18px;
+        padding-left: 25px;
+        list-style-image: url(../img/arrow.gif);
+    }

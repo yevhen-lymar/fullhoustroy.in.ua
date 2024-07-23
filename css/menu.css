@@ -1,0 +1,103 @@
+#menu,
+#touch-menu {
+    width: 180px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+#menu li {
+    cursor: pointer;
+    list-style-type: none;
+    background-color: #fff;
+    font-family: 'Didact Gothic', sans-serif;
+    position: relative;
+    width: 180px;
+    font-size: 16px;
+    border-bottom: 1px solid #000;
+    zoom: 1;
+    *display: inline;
+}
+#menu li:last-child {
+    border-bottom: 0;
+}
+#menu li a,
+#touch-menu {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 15px;
+}
+#menu li .fa {
+    margin-right: 20px;
+    width: 15px;
+}
+#menu li a:hover,
+#menu .active,
+#touch-menu:hover {
+    color: #fff;
+    background-image: -webkit-linear-gradient(bottom, #afafaf, #777);
+    background-image: linear-gradient(to top, #afafaf, #777);
+}
+#menu li>ul {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 180px;
+    box-shadow: 4px 2px 4px #777;
+    z-index: 10;
+    -webkit-animation: op 0.5s;
+    animation: op 0.5s;
+}
+#menu li:hover>ul {
+    display: block;
+}
+#menu .menu_one::after {
+    content: " ";
+    position: absolute;
+    border: 5px solid;
+    border-color: transparent transparent transparent #000;
+    top: 1em;
+    right: 0.25px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+#menu .menu_one:hover::after {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+#menu li>ul li {
+    display: block;
+    width: 300px;
+}
+#menu li>ul li a {
+    display: block;
+}
+#touch-menu {
+    display: none;
+    text-align: center;
+}
+#touch-menu span {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#touch-menu .fa {
+    float: left;
+    margin-left: 10px;
+}
+@-webkit-keyframes op {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes op {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

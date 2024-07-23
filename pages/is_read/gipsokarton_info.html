@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ФуллХАУСтрой | Гипсокартон. История | Строительство и ремонт в городе Харьков</title>
+    <link rel="shortcut icon" href="../../img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../../css/normalize-3.0.2.css">
+    <link rel="stylesheet" href="../../css/global_style.css">
+    <link rel="stylesheet" href="../../css/menu.css">
+    <link rel="stylesheet" href="../../css/gallery.css">
+    <link rel="stylesheet" href="../../css/lightbox.css">
+    <link rel="stylesheet" href="../../css/for-lightbox.css">
+    <link rel="stylesheet" href="../../css/media-queries.css">
+    <link rel="stylesheet" href="../../css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Didact+Gothic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Jura&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="../../js/slider.js"></script>
+    <script>
+        $(document).ready(function() {
+            var touch = $("#touch-menu");
+            var menu = $("#menu");
+            var touch1 = $(".menu_one");
+            var menu1 = $(".menu_one:first-child");
+            $(touch).on("click", function(e) {
+                e.preventDefault();
+                menu.slideToggle();
+            });
+            $(touch1).on("click", function(e) {
+                e.preventDefault();
+                menu1.slideDown();
+            });
+            $(window).resize(function() {
+                var wid = $(window).width();
+                if (wid > 760 && menu.is(":hidden")) {
+                    menu.removeAttr("style");
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="container clearfix">
+        <header class="clearfix">
+
+            <div class="logo">
+                <a href="../../index.html">
+                    <img src="../../images/logo_fhs.png" alt="" title="На главную">
+                </a>
+            </div>
+            <div class="slogan">
+                <h1>Строительство и ремонт в городе Харьков</h1>
+                <hr>
+                <div class="b_ico">
+                    <img src="../../images/building_ico/1.png" alt="">
+                    <img src="../../images/building_ico/2.png" alt="">
+                    <img src="../../images/building_ico/3.png" alt="">
+                    <img src="../../images/building_ico/4.png" alt="">
+                    <img src="../../images/building_ico/5.png" alt="">
+                    <img src="../../images/building_ico/6.png" alt="">
+                    <img src="../../images/building_ico/7.png" alt="">
+                    <img src="../../images/building_ico/8.png" alt="">
+                    <img src="../../images/building_ico/9.png" alt="">
+                    <img src="../../images/building_ico/10.png" alt="">
+                </div>
+            </div>
+            <div class="contact">
+                <div class="social">
+                    <a href="https://www.facebook.com/groups/219757211926091/"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
+                    <a href="https://vk.com/fullhoustroy"><i class="fa fa-vk fa-lg" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/fullhoustroy_kharkov/"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
+                    <a href="https://vk.com/lymardesign" target="_blank">LD</a>
+                </div>
+                <div class="phone"><i class="fa fa-phone-square" aria-hidden="true"></i><em>0(97) 452 39 19</em>
+                    <br><i class="fa fa-phone-square" aria-hidden="true"></i><em>0(95) 875 68 45</em>
+                </div>
+            </div>
+            <div id="slider">
+                <ul class="slidewrap" data-current="0">
+                    <li>
+                        <a href="../perechen_uslug/mashinaya_shtukaturka.html#mash" class="more">Подробнее</a>
+                        <img src="../../images/slider/slider1.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="../../images/slider/slid2.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="../../images/slider/slider3.jpg" alt="">
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <main class="clearfix">
+            <aside id="left-sidebar">
+                <a href="#" id="touch-menu"><i class="fa fa-bars" aria-hidden="true"></i><span>М е н ю</span></a>
+                <nav>
+                    <ul id="menu">
+                        <li><a href="../../index.html"><i class="fa fa-home fa-lg" aria-hidden="true"></i>Главная</a>
+                        </li>
+                        <li><a class="menu_one"><i class="fa fa-wrench fa-lg" aria-hidden="true"></i>Перечень работ</a>
+                            <ul>
+                                <li><a href="../perechen_uslug/mashinaya_shtukaturka.html" class="active"><i class="fa fa-hand-o-right" aria-hidden="true"></i>Машинная штукатурка</a>
+                                </li>
+                                <li><a href="../perechen_uslug/styazhka_bitolait.html"><i class="fa fa-hand-o-right" aria-hidden="true"></i>Стяжка пола "БЕТОЛАЙТ"</a>
+                                </li>
+                                <!--
+                                <li><a href="#"><i class="fa fa-hand-o-right" aria-hidden="true"></i>Электромонтажные работы</a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-hand-o-right" aria-hidden="true"></i>Сантехнические работы</a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-hand-o-right" aria-hidden="true"></i>Отделочные работы</a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-hand-o-right" aria-hidden="true"></i>Гипсокартонные конструкции</a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-hand-o-right" aria-hidden="true"></i>Фасадные работы</a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-hand-o-right" aria-hidden="true"></i>Кровельные работы</a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-hand-o-right" aria-hidden="true"></i>Металоконструкции</a>
+                                </li>
+-->
+                            </ul>
+                        </li>
+                        <li><a class="menu_one"><i class="fa fa-university" aria-hidden="true"></i>Наши проекты</a>
+                            <ul>
+                                <li><a href="../proekti/malogabaritka_13_kv_m.html"><i class="fa fa-check" aria-hidden="true"></i>Малогабаритка 13м.кв.</a>
+                                </li>
+                                <li><a href="../proekti/malogabaritka_16_kv_m.html"><i class="fa fa-check" aria-hidden="true"></i>Малогабаритка 16м.кв.</a>
+                                </li>
+                                <li><a href="../proekti/odnokomnatnaya_kvartira.html"><i class="fa fa-check" aria-hidden="true"></i>Однокомнатня квартира "Чешка"</a>
+                                </li>
+                                <!--
+                                <li><a href="#"><i class="fa fa-check" aria-hidden="true"></i>4</a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-check" aria-hidden="true"></i>5</a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-check" aria-hidden="true"></i>6</a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-check" aria-hidden="true"></i>7</a>
+                                </li>
+-->
+                            </ul>
+                        </li>
+                        <li><a href="../gallery.html"><i class="fa fa-picture-o fa-lg" aria-hidden="true"></i>Галерея</a>
+                        </li>
+                        <li><a href="../prices.html"><i class="fa fa-usd fa-lg" aria-hidden="true"></i>Цены</a>
+                        </li>
+                        <li><a href="../contacts.html"><i class="fa fa-phone fa-lg" aria-hidden="true"></i>Контакты</a>
+                        </li>
+                        <li><a href="../../testimonials/index.php"><i class="fa fa-comment fa-lg" aria-hidden="true"></i>Отзывы</a>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+            <section>
+                <div class="h1">
+                    <img src="../../img/cub.png" alt="">
+                    <h1 id="mash">Гипсокартон. История</h1>
+                </div>
+                <div class="text_gal">
+                    <hr>
+                    <h2>Строительство и ремонт в городе Харьков</h2>
+                    <hr>
+
+                    <div class="p">Гипсокарто́н («лист гипсокартонный», «сухая гипсовая штукатурка» (англ. «drywall») — строительный материал, представляющий собой лист, состоящий из двух слоёв строительной бумаги (картона) и сердечника из слоя затвердевшего гипсового теста с наполнителями.</div>
+                    <div class="p">Предназначается для устройства обшивок, перегородок, потолков в зданиях с сухим и нормальным влажностным режимом.</div>
+                    <p>Стандартная ширина листа — 120 см.</p>
+                    <p>Гипсокартон изобрели в XIX веке в Америке. Это сделал Августин Сакетт, который владел бумажной фабрикой. Поиски новых рынков применения бумаги привели к изобретению «строительной доски», толщиной 15 мм. Это был «пирог» из 10 слоёв бумаги, которые скрепляли тонкую полосу гипса. Августин Сакетт получил патент на этот стройматериал. Но это был только прообраз современного гипсокартона. В том виде, который сейчас является принятым стандартом гипсокартон представил и запатентовал американский инженер Кларенс Утсман.</p>
+                    <div class="p">Из общей массы листа примерно 91,1 % приходится на двуводный гипс, 5,78 % — на картон, 1 % массы образован за счёт влаги, крахмала и органического поверхностно-активного вещества. Гипсокартонные листы приклеивают к облицовочным поверхностям гипсовыми мастиками, либо крепят на обрешётку (деревянный или металлический оцинкованный каркас) шурупами.</div>
+                    <div class="p">Различают обычный гипсокартон (ГКЛ) и влагостойкий гипсокартон (ГКЛВ), а также огнестойкий соответственно ГКЛО. Влагостойкий гипсокартон предназначен для работ в помещениях с повышенным содержанием паров в воздухе (например, в ванных комнатах). Огнестойкий гипсокартон применяется в отделке порталов каминов и других мест вблизи источников открытого огня. Существует также гипсоволокнистый лист ГВЛ, отличающийся повышенной прочностью. Также существует акустический гипсокартон с повышенной звукоизоляцией.</div>
+                    <p>Гипсокартон — не новое явление в Украине.</p>
+                    <div class="p">В Советском Союзе гипсокартон использовался ещё с 50-х годов XX века. Гипсокартон надёжно прижился на стройке — это простой в работе, недорогой, удобный и практичный материал для изготовления стен (перегородок) и их выравнивания (например, для подготовки стены к укладке кафеля). В простейшем варианте такая перегородка состоит из решетчатого каркаса, состоящего из вертикальных брусьев на расстоянии 40..60 см друг от друга, на которые с двух сторон крепится гипсокартон. В жилых домах за рубежом каркас, как правило, бывает деревянный (в США типично использование деревянных брусьев сечением в 1,5 на 3,5 дюйма, т. н. «2x4»), в Украине чаще используются металлические профили.</div>
+                    <div class="p">Популярен простой метод звукоизоляции, при котором вертикальные брусья ставятся зигзагом (так, чтобы ни один брусок не соприкасался одновременно с листами с обеих сторон стены), а пространство между листами заполняется стекловатой. Выемки от шурупов покрываются шпатлёвкой, на стыки гипсокартонных листов наклеивается специальная армирующая сетка, после чего стыки также заполняются шпатлёвкой. После высыхания нанесенная шпатлёвка шлифуется абразивной шкуркой, после чего законченная стена может краситься стандартными методами.</div>
+                    <div class="p">Гипсокартон также широко используется для изготовления многоуровневых потолков и оконных откосов. В потолках можно скрывать инженерные коммуникации. Если ранее гипсокартон использовался по прямому назначению - исключительно для выравнивания поверхностей, то с появлением широкого ассортимента комплектных систем, гипсокартон стал использоваться как конструкционный материал.</div>
+                    <div class="p">Особенно он полюбился дизайнерам за возможность проявлять свои творческие способности. Конструкции из гипсокартона, на каркасной основе, способны преобразить интерьер до неузнаваемости. Из гипсокартона возможно сделать не только ровные потолки и перегородки, но потолки с всевозможными формами и подсветками, настенные панели, камины, арки, полки, барные стойки, круглые перегородки, дверные порталы и еще многое другое. То есть используется и для зонирования помещения, и для функциональности, и для создания неповторимого зксклюзивного интерьера.</div>
+                </div>
+                <div class="win"><em>&laquo;С нами вы <strong>выиграете</strong>!&raquo;</em>
+                </div>
+                <footer class="clearfix">
+                    <div class="cop">
+                        &copy; 2018
+                        <a href="https://new.vk.com/evgeniy_lymar">
+                            <img src="../../images/logo_LymarDesign_black_h50px.png" alt="">
+                        </a>
+                    </div>
+                </footer>
+            </section>
+            <aside id="right-sidebar">
+                <div class="news">
+                    <h3>Почитать</h3>
+                    <ul>
+                        <li><i class="fa fa-align-justify" aria-hidden="true"></i><a href="#">Гипсокартон. История</a>
+                        </li>
+                        <li><i class="fa fa-align-justify" aria-hidden="true"></i><a href="#">Шпаклевка стен</a>
+                        </li>
+                        <li><i class="fa fa-align-justify" aria-hidden="true"></i><a href="#">Новые технологии</a>
+                        </li>
+                        <li><i class="fa fa-align-justify" aria-hidden="true"></i><a href="#">Первые инстурменты</a>
+                        </li>
+                        <li><i class="fa fa-align-justify" aria-hidden="true"></i><a href="#">Инструмент будущего</a>
+                        </li>
+                    </ul>
+                </div>
+                <hr>
+                <h3>Реклама</h3>
+                <div class="help">
+                    <img src="../../images/help/help.gif" alt="">
+                </div>
+            </aside>
+        </main>
+        <a href="#" id="go_top">
+            <img alt="up" src="../../img/up.png">
+        </a>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="../../js/scrollup.js"></script>
+    <script src="../../js/image_change.js"></script>
+    <script src="../../js/lightbox.min.js"></script>
+</body>
+
+</html>
